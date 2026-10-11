@@ -1,0 +1,14 @@
+{
+  "state": "We were billed twice for March. Refund or we cancel.",
+  "questions": {
+    "team": {
+      "type": "choice",
+      "instructions": "Which department should handle this email?",
+      "criteria": {
+        "billing":   "invoices, payments, refunds",
+        "technical": "bugs, outages, system errors",
+        "sales":     "pricing, new contracts"
+      }
+    }
+  }
+}
